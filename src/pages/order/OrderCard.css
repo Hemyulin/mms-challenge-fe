@@ -1,3 +1,18 @@
 .order-card {
-  background-color: red;
+  background-color: rgb(247, 224, 117);
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 2em;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.status {
+  background-color: rgb(0, 186, 0);
+  padding: 0.5em;
+  border: 1px solid black;
+}
+
+.title {
+  display: flex;
 }
